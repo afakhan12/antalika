@@ -6,9 +6,6 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  env: {
-    GEMINI_API_KEY: process.env.GEMINI_API_KEY,
-  },
 }
 
 module.exports = nextConfig
