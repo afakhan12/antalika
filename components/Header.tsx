@@ -22,7 +22,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link href="/" className="flex items-center">
           <Image 
-            src="/logo_primary.png" 
+            src="logo_primary.png" 
             alt="Antalika Logo" 
             width={180} 
             height={70} 

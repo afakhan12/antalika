@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   title: 'Antalika | Trading and Management Consulting',
   description: 'Antalika specializes in multidisciplinary engineering support and international trading across MENA nations. Turkey\'s leading industrial procurement partner.',
   icons: {
-    icon: '/logo_mark.png',
-    shortcut: '/logo_mark.png',
-    apple: '/logo_mark.png',
+    icon: 'logo_mark.png',
+    shortcut: 'logo_mark.png',
+    apple: 'logo_mark.png',
   },
 }
 
