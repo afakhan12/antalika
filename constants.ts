@@ -4,11 +4,9 @@ import { NavItem, Sector } from './types';
 export const NAV_LINKS: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about-us' },
-  { label: 'Services', href: '/services' },
   { label: 'Filters', href: '/filters' },
   { label: 'Oil & Gas', href: '/oil-gas-equipment' },
   { label: 'Supplements & Food', href: '/supplements' },
-  { label: 'Outsourcing', href: '/outsourcing' },
   { label: 'Contact', href: '/contact-us' },
 ];
 
