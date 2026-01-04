@@ -5,39 +5,6 @@ import React from 'react';
 const Supplements: React.FC = () => {
   return (
     <div className="bg-white">
-      {/* BigJoy Section */}
-      <section className="bg-red-600 py-40 text-white relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-20">
-          <div className="flex-1">
-            <h1 className="text-8xl md:text-[10rem] font-black italic tracking-tighter leading-none mb-6">BIGJOY</h1>
-            <p className="text-2xl font-black uppercase tracking-widest mb-8">Exclusive MENA Distribution Partner</p>
-            <p className="text-red-100 text-lg font-light leading-relaxed max-w-xl">
-              Antalika is proud to represent Turkey's leading sports nutrition brand. From professional athletes to fitness enthusiasts, BIGJOY provides science-backed performance formulas.
-            </p>
-          </div>
-          <div className="flex-shrink-0">
-             <div className="w-64 h-64 bg-white rounded-full flex items-center justify-center shadow-2xl transform rotate-12">
-                <span className="text-red-600 text-6xl font-black italic">B!G</span>
-             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-32 max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
-          {[
-            { title: 'Protein Range', desc: 'Isolate, Hydrolyzed, and Whey concentrates with maximum bio-availability.' },
-            { title: 'Muscle Growth', desc: 'High-calorie gainers and creatine formulas for professional volume management.' },
-            { title: 'Endurance', desc: 'Pre-workout and Amino acid profiles designed for high-intensity output.' },
-            { title: 'Weight Control', desc: 'L-Carnitine and CLA supplements focusing on efficient metabolic support.' }
-          ].map(item => (
-            <div key={item.title} className="bg-slate-50 p-12 border border-white hover:bg-slate-100 transition-colors">
-              <h4 className="text-xl font-black text-slate-900 uppercase tracking-tighter mb-4">{item.title}</h4>
-              <p className="text-slate-500 text-sm font-light leading-relaxed">{item.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
 
       {/* Züber Section */}
       <section className="py-32 bg-slate-50">
@@ -83,6 +50,41 @@ const Supplements: React.FC = () => {
           </div>
         </div>
       </section>
+      {/* BigJoy Section */}
+      <section className="bg-red-600 py-40 text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-20">
+          <div className="flex-1">
+            <h1 className="text-8xl md:text-[10rem] font-black italic tracking-tighter leading-none mb-6">BIGJOY</h1>
+            <p className="text-2xl font-black uppercase tracking-widest mb-8">Exclusive MENA Distribution Partner</p>
+            <p className="text-red-100 text-lg font-light leading-relaxed max-w-xl">
+              Antalika is proud to represent Turkey's leading sports nutrition brand. From professional athletes to fitness enthusiasts, BIGJOY provides science-backed performance formulas.
+            </p>
+          </div>
+          <div className="flex-shrink-0">
+             <div className="w-64 h-64 bg-white rounded-full flex items-center justify-center shadow-2xl transform rotate-12">
+                <span className="text-red-600 text-6xl font-black italic">B!G</span>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-32 max-w-7xl mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+          {[
+            { title: 'Protein Range', desc: 'Isolate, Hydrolyzed, and Whey concentrates with maximum bio-availability.' },
+            { title: 'Muscle Growth', desc: 'High-calorie gainers and creatine formulas for professional volume management.' },
+            { title: 'Endurance', desc: 'Pre-workout and Amino acid profiles designed for high-intensity output.' },
+            { title: 'Weight Control', desc: 'L-Carnitine and CLA supplements focusing on efficient metabolic support.' }
+          ].map(item => (
+            <div key={item.title} className="bg-slate-50 p-12 border border-white hover:bg-slate-100 transition-colors">
+              <h4 className="text-xl font-black text-slate-900 uppercase tracking-tighter mb-4">{item.title}</h4>
+              <p className="text-slate-500 text-sm font-light leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      
 
       {/* Voonka Section */}
       <section className="py-32 bg-white">
