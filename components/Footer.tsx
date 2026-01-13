@@ -27,9 +27,9 @@ const Footer: React.FC = () => {
           <div className="flex flex-col">
             <h4 className="text-lg font-bold mb-6">Our Services</h4>
             <ul className="space-y-4 text-slate-400 text-sm">
-              <li><Link href="/services" className="hover:text-white transition-colors">International Trading</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">Company Representation</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">Business Strategy</Link></li>
+              <li><Link href="/about-us" className="hover:text-white transition-colors">International Trading</Link></li>
+              <li><Link href="/about-us" className="hover:text-white transition-colors">Company Representation</Link></li>
+              <li><Link href="/about-us" className="hover:text-white transition-colors">Business Strategy</Link></li>
               <li><Link href="/outsourcing" className="hover:text-white transition-colors">Engineering Support</Link></li>
             </ul>
           </div>

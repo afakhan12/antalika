@@ -13,7 +13,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/filters",
     "/oil-gas-equipment",
     "/supplements",
-    "/services",
     "/sectors-ranges",
     "/regions/turkey",
     "/regions/saudi-arabia",

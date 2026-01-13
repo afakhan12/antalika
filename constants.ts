@@ -11,8 +11,8 @@ export const NAV_LINKS: NavItem[] = [
 ];
 
 export const SECTORS: Sector[] = [
-  { title: 'Oil & Gas', image: 'Machinary.avif', href: '/oil-gas-equipment' },
-  { title: 'Food Industry', image: 'food.webp', href: '/supplements' },
+  { title: 'Oil & Gas', image: '/Machinary.avif', href: '/oil-gas-equipment' },
+  { title: 'Food Industry', image: '/food.webp', href: '/supplements' },
 ];
 
 export const BRANDS = [

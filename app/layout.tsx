@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} bg-white text-slate-900`}>
+      <body className={`${poppins.variable} font-sans bg-white text-slate-900`}>
         <div className="flex flex-col min-h-screen bg-white">
           <Header />
           <main className="flex-grow pt-[80px]">
